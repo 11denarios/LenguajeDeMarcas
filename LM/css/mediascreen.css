@@ -1,0 +1,14 @@
+#lista *{
+    background-color:aqua;
+    display: inline;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media screen and (max-width:635px){
+    #lista *{
+        background-color: chartreuse;
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        max-width: 150px;
+    }
+}

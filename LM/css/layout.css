@@ -1,0 +1,171 @@
+div {
+  border: 1px dashed black;
+}
+
+#container {
+  margin: 0px auto;
+  width: 800px;
+  overflow-y: auto;
+}
+
+#cabecera {
+  background-color: yellow;
+  height: 150px;
+}
+
+#c1 {
+  background-color: #a8d6cc;
+  height: 140px;
+  width: 250px;
+  float: left;
+}
+
+#c1titulo   {
+  float:right;
+  margin-top: 30px;
+  width:220px;
+}
+
+#c1titulo h1 {
+  margin:0px;
+  background-color: #e880f3;
+  border: 1px dashed black;
+  text-align: center;
+}
+
+#c1titulo p {
+  background-color: #e9a091;
+  text-align: center;
+  margin:0px;
+}
+
+#c2 {
+  background-color: #b6ff2c;
+  width: 170px;
+  height: 100px;
+  margin-left: 50px;
+  float: left;
+  position: relative;
+}
+
+#c2contenido {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 0px;
+}
+#c2contenido h5, #c2contenido h4 {
+    margin: 0px;
+}
+
+#c3 {
+  background-color: #7efccc;
+  height: 120px;
+  float: right;
+  width: 275px;
+}
+
+#c3contenido {
+  width: 230px;
+  margin-top: 50px;
+  border: 0px;
+}
+
+#c3 h3, #c3 p {
+  margin:0px;
+}
+
+#contenido {
+    background-color: blue;
+    height: 400px;
+}
+
+#pie {
+  background-color: yellow;
+  padding: 10px;
+}
+
+#pie p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 0.7em;
+}
+
+#cuerpouno{
+background-color:#7EFCBF;
+height:50px;
+}
+
+ 
+#cuerpouno * {
+display:inline;
+}
+
+
+#home {
+background-color:#CEE187;
+width:100px;
+height:30px;
+}
+
+#about {
+background-color:#DD8474;
+width:100px;
+height:30px;
+}
+
+#products {
+background-color:#E0B4CB;
+width:100px;
+height:30px;
+}
+
+#services {
+background-color:#6DAEF2;
+width:100px;
+height:30px;
+}
+
+#news {
+background-color:#76FCB3;
+width:100px;
+height:30px;
+}
+
+#contact {
+background-color:#A7FDF0;
+width:100px;
+height:30px;
+}
+
+#nogo {
+background-color:#54E3F1;
+width:100px;
+height:30px;
+}
+
+#menu{
+background-color:#9DF9F8;
+height:20px;
+}
+
+#menu * {
+display:inline;
+}
+
+#lorem {
+background-color:#A7FB5C;
+}
+
+#dolor {
+background-color:#E8FD34;
+}
+
+#consectetur {
+background-color:#40FA4E;
+}
+
+#cras{
+background-color:#E8FEAB;
+}
